@@ -1,0 +1,3 @@
+https://www.nuget.org/packages/Newtonsoft.Json/
+http://json2csharp.com/
+https://www.newtonsoft.com/json
