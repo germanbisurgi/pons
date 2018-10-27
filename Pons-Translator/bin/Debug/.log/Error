@@ -1686,3 +1686,9 @@
 -> mscorlib <Ein Teil des Pfades "C:\Users\german.bisurgi\Desktop\Pons-Translator-v2\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
 22:10:2018 14:20:18: SELECT * FROM word | Thread-ID: 10
 -> mscorlib <Ein Teil des Pfades "C:\Users\german.bisurgi\Desktop\Pons-Translator-v2\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 11:40:32: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 11:40:34: Connection failed... | Thread-ID: 1
+-> MySql.Data <Unable to connect to any of the specified MySQL hosts.>
+27:10:2018 11:40:34: SELECT * FROM word | Thread-ID: 1
+-> Mk.DBConnector <Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.>

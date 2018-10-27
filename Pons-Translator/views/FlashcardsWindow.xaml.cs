@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Pons_Translator.views
 {
     /// <summary>
-    /// Interaktionslogik für FlaschcardsWindow.xaml
+    /// Interaktionslogik für FlashcardsWindow.xaml
     /// </summary>
-    public partial class FlaschcardsWindow : Window
+    public partial class FlashcardsWindow : Window
     {
-        public FlaschcardsWindow()
+        public FlashcardsWindow()
         {
             InitializeComponent();
         }

@@ -1,7 +1,11 @@
-﻿<Window x:Class="Pons_Translator.FlashcardWindow"
+﻿<Window x:Class="Pons_Translator.views.FlashcardsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="FlashcardWindow" Height="150" Width="300">
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pons_Translator.views"
+        mc:Ignorable="d"
+        Title="FlashcardsWindow" Height="150" Width="300">
     <Grid>
         <Label Name="lblCardContent" Content="word name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" Height="69"/>
         <Button Name="btnTranslate" Content="Translate" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="96" Height="27"/>
