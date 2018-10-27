@@ -19,9 +19,9 @@ namespace Pons_Translator
     /// <summary>
     /// Interaktionslogik für CategoriesWindow.xaml
     /// </summary>
-    public partial class CategoriesWindow : Window
+    public partial class FashcardsWindow : Window
     {
-        public CategoriesWindow()
+        public FashcardsWindow()
         {
             InitializeComponent();
             Refresh(true);

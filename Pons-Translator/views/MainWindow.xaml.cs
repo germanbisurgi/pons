@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using Pons_Translator.models;
+using Pons_Translator.views;
 
 namespace Pons_Translator
 {
@@ -25,17 +26,30 @@ namespace Pons_Translator
         public MainWindow()
         {
             InitializeComponent();
+            refresh();
+        }
+        public void refresh()
+        {
+            lbWordList.ItemsSource = Word.FindAll();
+        }
 
-            /*Category newCategory = new Category();
-            newCategory.name  = "vegetables";
-            newCategory.Save();*/
 
-            /*Category category = Category.Find("vegetables");
-            tbSearch.Text = category.name;
+        public void toWords_Click(object sender, RoutedEventArgs e)
+        {
+            WordWindow wordWindow = new WordWindow();
+            wordWindow.Show();
+        }
 
-            category.Update("fruits");
+        public void toCategories_Click(object sender, RoutedEventArgs e)
+        {
+            FashcardsWindow categoriesWindow = new FashcardsWindow();
+            categoriesWindow.Show();
+        }
 
-            category.Delete();*/
+        public void toFlashcards_Click(object sender, RoutedEventArgs e)
+        {
+            FlashcardsWindow flashcardsWindow = new FlashcardsWindow();
+            flashcardsWindow.Show();
         }
     }
 }

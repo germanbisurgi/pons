@@ -2380,3 +2380,331 @@
 -> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
 27:10:2018 17:37:02: SELECT * FROM category | Thread-ID: 1
 -> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:13:14: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:13:14: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:15:39: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:15:47: SELECT * FROM category WHERE name = 'Essen und Trinken' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:15:47: SELECT * FROM category WHERE name = 'Hobbies and sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:16:09: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:16:09: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:16:14: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:16:16: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:16:21: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:16:24: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:18:12: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:19:05: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:23:12: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:23:20: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:27:12: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:27:15: SELECT * FROM category WHERE name = 'Hobbies and sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:27:16: SELECT * FROM category WHERE name = 'Essen und Trinken' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:27:18: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:28:11: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:28:31: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:04: SELECT * FROM category WHERE name = 'Music' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:04: INSERT INTO category(name) VALUES('Music');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:04: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:05: SELECT * FROM category WHERE name = 'Hobbies and sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:16: UPDATE category SET name = 'Sports' WHERE id = 3; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:16: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:17: SELECT * FROM category WHERE name = 'Essen und Trinken' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:23: UPDATE category SET name = 'Essen' WHERE id = 2; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:23: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:27: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:27: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:28: SELECT * FROM word WHERE name = 'foo' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:28: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:28: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:43: SELECT * FROM category WHERE name = 'Essen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:43: UPDATE word SET categoryId = 2, count = 0, name = 'Apfel', language = 'en', translation = 'Apple'  WHERE id = 1; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:43: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:45: SELECT * FROM word WHERE name = 'lil' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:45: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:29:45: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:02: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:02: UPDATE word SET categoryId = 3, count = 0, name = 'Karote', language = 'en', translation = 'Carrot'  WHERE id = 2; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:02: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:12: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:12: SELECT * FROM word WHERE name = 'Salat' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:12: INSERT INTO word(categoryId, count, name, language, translation) VALUES(3, 0, 'Salat', 'en', 'Salad');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:12: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:12: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:15: SELECT * FROM word WHERE name = 'Salat' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:15: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:15: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:18: SELECT * FROM category WHERE name = 'Essen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:18: UPDATE word SET categoryId = 2, count = 0, name = 'Salat', language = 'en', translation = 'Salad'  WHERE id = 3; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:18: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:19: SELECT * FROM word WHERE name = 'Karote' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:19: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:19: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:23: SELECT * FROM category WHERE name = 'Essen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:23: UPDATE word SET categoryId = 2, count = 0, name = 'Karote', language = 'en', translation = 'Carrot'  WHERE id = 2; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:23: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:24: SELECT * FROM word WHERE name = 'Apfel' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:24: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:24: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:59: SELECT * FROM category WHERE name = 'Essen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:59: SELECT * FROM word WHERE name = 'Fussball' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:59: INSERT INTO word(categoryId, count, name, language, translation) VALUES(2, 0, 'Fussball', 'en', 'Football');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:59: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:30:59: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:00: SELECT * FROM word WHERE name = 'Fussball' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:00: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:00: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:15: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:15: SELECT * FROM word WHERE name = 'Tanzen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:15: INSERT INTO word(categoryId, count, name, language, translation) VALUES(3, 0, 'Tanzen', 'en', 'Dance');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:15: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:15: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:26: SELECT * FROM category WHERE name = '' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:36: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:31:37: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:06: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:06: SELECT * FROM word WHERE name = 'Rennen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:06: INSERT INTO word(categoryId, count, name, language, translation) VALUES(3, 0, 'Rennen', 'en', 'to Run');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:06: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:06: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:08: SELECT * FROM word WHERE name = 'Tanzen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:08: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:08: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:16: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:16: UPDATE word SET categoryId = 3, count = 0, name = 'Tanzen', language = 'en', translation = 'To dance'  WHERE id = 5; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:16: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:17: SELECT * FROM word WHERE name = 'Fussball' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:17: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:17: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:24: SELECT * FROM word WHERE name = 'Tanzen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:24: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:24: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:25: SELECT * FROM word WHERE name = 'Rennen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:25: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:25: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:26: SELECT * FROM word WHERE name = 'Tanzen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:26: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:26: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:27: SELECT * FROM word WHERE name = 'Rennen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:27: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:27: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:31: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:31: UPDATE word SET categoryId = 3, count = 0, name = 'Rennen', language = 'en', translation = 'to run'  WHERE id = 6; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:31: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:50: SELECT * FROM category WHERE name = 'Music' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:50: SELECT * FROM word WHERE name = 'Singen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:50: INSERT INTO word(categoryId, count, name, language, translation) VALUES(4, 0, 'Singen', 'en', 'to sing');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:50: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:32:50: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:11: SELECT * FROM category WHERE name = 'Music' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:11: SELECT * FROM word WHERE name = 'Guitarre' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:11: INSERT INTO word(categoryId, count, name, language, translation) VALUES(4, 0, 'Guitarre', 'en', 'Guitar');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:11: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:11: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:52: SELECT * FROM category WHERE name = 'Music' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:52: SELECT * FROM word WHERE name = 'Schlagzeug' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:52: INSERT INTO word(categoryId, count, name, language, translation) VALUES(4, 0, 'Schlagzeug', 'en', 'Drums');  | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:52: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:52: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:53: SELECT * FROM word WHERE name = 'Schlagzeug' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:53: SELECT * FROM category WHERE id = 4 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:53: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:54: SELECT * FROM word WHERE name = 'Guitarre' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:54: SELECT * FROM category WHERE id = 4 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:54: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:55: SELECT * FROM word WHERE name = 'Singen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:55: SELECT * FROM category WHERE id = 4 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:55: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM word WHERE name = 'Rennen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM word WHERE name = 'Tanzen' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category WHERE id = 3 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM word WHERE name = 'Fussball' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM word WHERE name = 'Salat' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:56: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:57: SELECT * FROM word WHERE name = 'Karote' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:57: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:57: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:57: SELECT * FROM word WHERE name = 'Apfel' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:57: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:57: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:58: SELECT * FROM word WHERE name = 'Karote' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:58: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:58: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:58: SELECT * FROM word WHERE name = 'Salat' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:58: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:58: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:59: SELECT * FROM word WHERE name = 'Fussball' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:59: SELECT * FROM category WHERE id = 2 | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:33:59: SELECT * FROM category | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:34:02: SELECT * FROM category WHERE name = 'Sports' | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:34:02: UPDATE word SET categoryId = 3, count = 0, name = 'Fussball', language = 'en', translation = 'Football'  WHERE id = 4; | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:34:02: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+27:10:2018 18:36:11: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
