@@ -11,7 +11,7 @@ namespace Pons_Translator.models
 {
     public class Category
     {
-        public long id;
+        public int id;
         public string name;
 
         public Category()
@@ -44,7 +44,7 @@ namespace Pons_Translator.models
             foreach (DataRow row in table.Rows)
             {
                 Category category = new Category();
-                category.id = long.Parse(row["id"].ToString());
+                category.id = int.Parse(row["id"].ToString());
                 category.name = row["name"].ToString();
                 categories.Add(category);
             }
@@ -60,7 +60,27 @@ namespace Pons_Translator.models
             foreach (DataRow row in tale.Rows)
             {
                 Category category = new Category();
-                category.id = long.Parse(row["id"].ToString());
+                category.id = int.Parse(row["id"].ToString());
+                category.name = row["name"].ToString();
+                categories.Add(category);
+            }
+            if (categories.Count == 0)
+            {
+                return null;
+            }
+            return categories[0];
+        }
+
+        // finds one category by id.
+        public static Category FindById(int id)
+        {
+            List<Category> categories = new List<Category>();
+            string sql = string.Format(@"SELECT * FROM category WHERE id = {0}", id);
+            DataTable tale = DBConnection.db.Adapter.GetDataTable(sql);
+            foreach (DataRow row in tale.Rows)
+            {
+                Category category = new Category();
+                category.id = int.Parse(row["id"].ToString());
                 category.name = row["name"].ToString();
                 categories.Add(category);
             }

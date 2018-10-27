@@ -33,7 +33,7 @@ namespace Pons_Translator.views
             if (resetInputs)
             {
                 tbWordID.Text = "";
-                tbWordCategoryId.Text = "";
+                cbWordCategory.ItemsSource = Category.FindAll(); ;
                 tbWordCount.Text = "";
                 tbWordName.Text = "";
                 tbWordLanguage.Text = "";
@@ -45,9 +45,17 @@ namespace Pons_Translator.views
         {
             if (lbWordList.SelectedItem != null)
             {
-                Word word = Word.FindOne(lbWordList.SelectedItem.ToString());
+                string wordName = lbWordList.SelectedItem.ToString();
+                Word word = Word.FindOne(wordName);
+                Category category = Category.FindById(word.categoryId);
                 tbWordID.Text = word.id.ToString();
-                tbWordCategoryId.Text = word.categoryId.ToString();
+                cbWordCategory.ItemsSource = Category.FindAll(); // todo: select correct category
+                foreach (var item in cbWordCategory.Items)
+                if (item.ToString() == category.name)
+                {
+                    cbWordCategory.SelectedValue = item;
+                    break;
+                }
                 tbWordCount.Text = word.count.ToString();
                 tbWordName.Text = word.name.ToString();
                 tbWordLanguage.Text = word.language.ToString();
@@ -57,8 +65,17 @@ namespace Pons_Translator.views
 
         private void btnCreateWord_Click(object sender, RoutedEventArgs e)
         {
-            int categoryId = int.Parse(tbWordCategoryId.Text);
-            int count = int.Parse(tbWordCount.Text);
+            Category category = Category.FindOne(cbWordCategory.Text);
+            int categoryId = category.id;
+            int count;
+            if (tbWordCount.Text != "")
+            {
+                count = int.Parse(tbWordCount.Text);
+            }
+            else
+            {
+                count = 0;
+            }
             string name = tbWordName.Text;
             string language = tbWordLanguage.Text;
             string translation = tbWordTranslation.Text;
@@ -80,9 +97,18 @@ namespace Pons_Translator.views
 
         private void btnUpdateWord_Click(object sender, RoutedEventArgs e)
         {
+            Category category = Category.FindOne(cbWordCategory.Text);
             int id = int.Parse(tbWordID.Text);
-            int categoryId = int.Parse(tbWordCategoryId.Text);
-            int count = int.Parse(tbWordCount.Text);
+            int categoryId = category.id;
+            int count;
+            if (tbWordCount.Text != "")
+            {
+                count = int.Parse(tbWordCount.Text);
+            }
+            else
+            {
+                count = 0;
+            }
             string name = tbWordName.Text;
             string language = tbWordLanguage.Text;
             string translation = tbWordTranslation.Text;

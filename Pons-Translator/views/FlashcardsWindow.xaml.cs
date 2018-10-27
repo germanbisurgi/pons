@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using Pons_Translator.models;
+
 namespace Pons_Translator.views
 {
     /// <summary>
@@ -22,10 +24,12 @@ namespace Pons_Translator.views
         public FlashcardsWindow()
         {
             InitializeComponent();
+            PrepareCards();
         }
 
-        public void PrepareCards(object sender, RoutedEventArgs e)
+        public void PrepareCards()
         {
+            cbCategories.ItemsSource = Category.FindAll();
             // playingCards = array of words from database filtered by category by category
             // removedCards = contains correct answered cards
             // LoadRandomCard()
