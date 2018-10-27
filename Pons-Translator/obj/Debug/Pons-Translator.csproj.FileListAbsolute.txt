@@ -82,3 +82,4 @@ C:\Users\german\Desktop\pons-translator\Pons-Translator\obj\Debug\views\Flashcar
 C:\Users\german\Desktop\pons-translator\Pons-Translator\obj\Debug\views\CategoriesWindow.baml
 C:\Users\german\Desktop\pons-translator\Pons-Translator\obj\Debug\views\MainWindow.baml
 C:\Users\german\Desktop\pons-translator\Pons-Translator\obj\Debug\views\FlashcardsWindow.baml
+C:\Users\german\Desktop\pons-translator\Pons-Translator\obj\Debug\Pons-Translator.csprojAssemblyReference.cache

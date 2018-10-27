@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -18,9 +21,6 @@ using Pons_Translator.views;
 
 namespace Pons_Translator
 {
-    /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -28,11 +28,16 @@ namespace Pons_Translator
             InitializeComponent();
             refresh();
         }
+
         public void refresh()
         {
             lbWordList.ItemsSource = Word.FindAll();
-        }
+            cbLanguage.Items.Add("en");
+            cbLanguage.Items.Add("it");
+            cbLanguage.Items.Add("es");
+            cbLanguage.SelectedValue = "en";
 
+        }
 
         public void toWords_Click(object sender, RoutedEventArgs e)
         {
@@ -50,6 +55,15 @@ namespace Pons_Translator
         {
             FlashcardsWindow flashcardsWindow = new FlashcardsWindow();
             flashcardsWindow.Show();
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string word = tbWord.Text;
+            string language = cbLanguage.Text;
+            string translation = PonsApi.Translate(word, language);
+            MessageBox.Show(string.Format("Looking for the word {0} in {1}", word, language));
+            //  parse json and populate a Word object whith it;
         }
     }
 }

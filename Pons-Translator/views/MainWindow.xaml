@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="450">
     <Grid Margin="0,0,0,0">
         <Grid Margin="0,0,0,0">
-            <TextBox Name="tbSearch" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
-            <Button Name="btnSwitchLanguage" Content="de - en" HorizontalAlignment="Left" Margin="337,13,0,0" VerticalAlignment="Top" Width="95"/>
-            <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="236,13,0,0" VerticalAlignment="Top" Width="96"/>
+            <TextBox Name="tbWord" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
+            <ComboBox Name="cbLanguage" HorizontalAlignment="Left" Margin="236,10,0,0" VerticalAlignment="Top" Width="95"/>
+            <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="336,12,0,0" VerticalAlignment="Top" Width="96" Click="btnSearch_Click"/>
             <ListBox Name="lbWordList" Height="271" Margin="10,38,10,0" VerticalAlignment="Top"/>
             <Button Name="toWords" Content="Words" HorizontalAlignment="Left" Margin="10,321,0,0" VerticalAlignment="Top" Width="422" Click="toWords_Click"/>
             <Button Name="toCategories" Content="Categories" HorizontalAlignment="Left" Margin="10,346,0,0" VerticalAlignment="Top" Width="422" Click="toCategories_Click"/>
