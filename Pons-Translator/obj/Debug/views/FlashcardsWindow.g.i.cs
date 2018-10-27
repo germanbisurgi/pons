@@ -116,6 +116,7 @@ namespace Pons_Translator.views
         }
 
         internal System.Windows.Controls.Button btnFlip;
+        internal System.Windows.Controls.TextBox tbCategory;
     }
 }
 
