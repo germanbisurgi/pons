@@ -23,5 +23,34 @@ namespace Pons_Translator.views
         {
             InitializeComponent();
         }
+
+        public void PrepareCards(object sender, RoutedEventArgs e)
+        {
+            // playingCards = array of words from database filtered by category by category
+            // removedCards = contains correct answered cards
+            // LoadRandomCard()
+        }
+
+        public void LoadRandomCard()
+        {
+            // randomIndex = a random number from 0 to playingCards.length.
+            // load playingCards[randomIndex] card
+        }
+
+        public void btnWrong_Click(object sender, RoutedEventArgs e)
+        {
+            // LoadRandomCard()
+        }
+
+        public void btnCorrect_Click(object sender, RoutedEventArgs e)
+        {
+            // remove the card from cards and add it to the removed cards.
+            // LoadRandomCard()
+        }
+
+        public void btnFlip_Click(object sender, RoutedEventArgs e)
+        {
+            // flip card (switches between word and translation)
+        }
     }
 }

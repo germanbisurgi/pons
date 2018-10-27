@@ -8,8 +8,8 @@
         Title="FlashcardsWindow" Height="150" Width="300">
     <Grid>
         <Label Name="lblCardContent" Content="word name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" Height="69"/>
-        <Button Name="btnTranslate" Content="Translate" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="96" Height="27"/>
-        <Button Name="btnCorrect" Content="Correct" HorizontalAlignment="Left" Height="27" Margin="111,84,0,0" VerticalAlignment="Top" Width="86"/>
-        <Button Name="btnWrong" Content="Wrong" HorizontalAlignment="Left" Height="27" Margin="202,84,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Name="btnFlip" Content="Flip" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="96" Height="27"/>
+        <Button Name="btnCorrect" Content="Correct" HorizontalAlignment="Left" Height="27" Margin="111,84,0,0" VerticalAlignment="Top" Width="86" Click="btnCorrect_Click"/>
+        <Button Name="btnWrong" Content="Wrong" HorizontalAlignment="Left" Height="27" Margin="202,84,0,0" VerticalAlignment="Top" Width="80" Click="btnWrong_Click"/>
     </Grid>
 </Window>
