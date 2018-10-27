@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\german.bisurgi\Desktop\Pons-Translator-v3\Pons-Translator\obj\Debug\
+C:\Users\german\Desktop\pons-translator\Pons-Translator\obj\Debug\
 Pons_Translator
 none
 false
 DEBUG;TRACE
-C:\Users\german.bisurgi\Desktop\Pons-Translator-v3\Pons-Translator\App.xaml
-3-386392519
+C:\Users\german\Desktop\pons-translator\Pons-Translator\App.xaml
+4-1768953191
 
-1486079604
-21-1118496229
-views\CategoriesWindow.xaml;views\MainWindow.xaml;views\WordWindow.xaml;
+15-707791244
+21-1404480362
+views\CategoriesWindow.xaml;views\FlaschcardsWindow.xaml;views\MainWindow.xaml;views\WordWindow.xaml;
 
-True
+False
 
