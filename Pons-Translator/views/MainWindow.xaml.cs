@@ -35,7 +35,7 @@ namespace Pons_Translator
             categoriesWindow.Show();
         }
 
-        public void toFlashcards_Click(object sender, RoutedEventArgs e)
+        public void play_Click(object sender, RoutedEventArgs e)
         {
             FlashcardsWindow flashcardsWindow = new FlashcardsWindow();
             flashcardsWindow.Show();
@@ -45,11 +45,26 @@ namespace Pons_Translator
         {
             string word = tbWord.Text;
             string language = cbLanguage.Text;
-            // if cached
-                // load from cache
-            // else
-                // load from api and save in cache
+            Word existingWord = Word.FindOne(word);
+            if (existingWord == null)
+            {
                 List<string> translations = PonsApi.Translate(word, language);
+                if (translations == null)
+                {
+                    MessageBox.Show("Not Found", "Not Found");
+                } else
+                {
+                    string translation = translations[0];
+                    Word.Create(0, 0, word, language, translation);
+                    MessageBox.Show(translation, "From api");
+                    refresh();
+                }
+                
+            } else
+            {
+                MessageBox.Show(existingWord.translation, "From cache");
+            }
+                
         }
 
         private void cbCategories_DropDownClosed(object sender, System.EventArgs e)

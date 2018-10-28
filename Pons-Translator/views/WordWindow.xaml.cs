@@ -36,7 +36,7 @@ namespace Pons_Translator.views
                 tbWordId.Text = word.id.ToString();
                 cbWordCategory.ItemsSource = Category.FindAll();
                 foreach (var item in cbWordCategory.Items)
-                if (item.ToString() == category.name)
+                if (category != null && item.ToString() == category.name)
                 {
                     cbWordCategory.SelectedValue = item;
                     break;

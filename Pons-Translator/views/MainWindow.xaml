@@ -11,11 +11,12 @@
             <TextBox Name="tbWord" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
             <ComboBox Name="cbLanguage" HorizontalAlignment="Left" Margin="236,10,0,0" VerticalAlignment="Top" Width="95"/>
             <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="336,12,0,0" VerticalAlignment="Top" Width="96" Click="btnSearch_Click"/>
-            <ComboBox Name="cbCategories" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="221" DropDownClosed="cbCategories_DropDownClosed"/>
+            <ComboBox Name="cbCategories" HorizontalAlignment="Left" Margin="211,86,0,0" VerticalAlignment="Top" Width="221" DropDownClosed="cbCategories_DropDownClosed"/>
             <ListBox Name="lbWordList" Height="271" Margin="10,113,10,0" VerticalAlignment="Top"/>
             <Button Name="toWords" Content="Words" HorizontalAlignment="Left" Margin="10,439,0,0" VerticalAlignment="Top" Width="221" Click="toWords_Click"/>
             <Button Name="toCategories" Content="Categories" HorizontalAlignment="Left" Margin="236,439,0,0" VerticalAlignment="Top" Width="196" Click="toCategories_Click"/>
-            <Button Name="toFlashcards" Content="Play Listed" HorizontalAlignment="Left" Margin="236,88,0,0" VerticalAlignment="Top" Width="196" Click="toFlashcards_Click"/>
+            <Button Name="play" Content="Play" HorizontalAlignment="Left" Margin="10,384,0,0" VerticalAlignment="Top" Width="422" Click="play_Click"/>
+            <Label Content="Categories" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,0.038" Width="196"/>
         </Grid>
     </Grid>
 </Window>

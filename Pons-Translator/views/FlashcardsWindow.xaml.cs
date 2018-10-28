@@ -1,4 +1,5 @@
 ﻿using Pons_Translator.models;
+using System.Collections.Generic;
 using System.Windows;
 
 namespace Pons_Translator.views
@@ -13,7 +14,6 @@ namespace Pons_Translator.views
 
         public void PrepareCards()
         {
-            cbCategories.ItemsSource = Category.FindAll();
             // playingCards = array of words from database filtered by category by category
             // removedCards = contains correct answered cards
             // LoadRandomCard()
