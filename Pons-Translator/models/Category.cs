@@ -1,10 +1,5 @@
-﻿using System;
+﻿using Pons_Translator.DB;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Pons_Translator.DB;
 using System.Data;
 
 namespace Pons_Translator.models

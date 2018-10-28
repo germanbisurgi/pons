@@ -3026,3 +3026,15 @@
 -> MySql.Data <Unable to connect to any of the specified MySQL hosts.>
 28:10:2018 12:51:05: SELECT * FROM word | Thread-ID: 1
 -> Mk.DBConnector <Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.>
+28:10:2018 12:55:56: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+28:10:2018 12:55:58: Connection failed... | Thread-ID: 1
+-> MySql.Data <Unable to connect to any of the specified MySQL hosts.>
+28:10:2018 12:55:58: SELECT * FROM word | Thread-ID: 1
+-> Mk.DBConnector <Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.>
+28:10:2018 12:56:58: SELECT * FROM word | Thread-ID: 1
+-> mscorlib <Ein Teil des Pfades "C:\Users\german\Desktop\pons-translator\Pons-Translator\bin\Debug\.log\" konnte nicht gefunden werden.>
+28:10:2018 12:57:00: Connection failed... | Thread-ID: 1
+-> MySql.Data <Unable to connect to any of the specified MySQL hosts.>
+28:10:2018 12:57:00: SELECT * FROM word | Thread-ID: 1
+-> Mk.DBConnector <Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.>
