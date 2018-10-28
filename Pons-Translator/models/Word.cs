@@ -64,6 +64,21 @@ namespace Pons_Translator.models
             return words;
         }
 
+        // Finds all words by category.
+        public static List<Word> FindAllByCategoryId(int categoryId)
+        {
+            List<Word> words = FindAll();
+            List<Word> categoryWords = new List<Word>();
+            foreach (Word word in words)
+            {
+                if (word.categoryId == categoryId)
+                {
+                    categoryWords.Add(word);
+                }
+            }
+            return categoryWords;
+        }
+
         // finds one category by name.
         public static Word FindOne(string name)
         {

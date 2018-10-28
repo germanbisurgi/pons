@@ -15,6 +15,7 @@ namespace Pons_Translator
 
         public void refresh()
         {
+            cbCategories.ItemsSource = Category.FindAll();
             lbWordList.ItemsSource = Word.FindAll();
             cbLanguage.Items.Add("en");
             cbLanguage.Items.Add("it");
@@ -44,7 +45,17 @@ namespace Pons_Translator
         {
             string word = tbWord.Text;
             string language = cbLanguage.Text;
-            List<string> translations = PonsApi.Translate(word, language);
+            // if cached
+                // load from cache
+            // else
+                // load from api and save in cache
+                List<string> translations = PonsApi.Translate(word, language);
+        }
+
+        private void cbCategories_DropDownClosed(object sender, System.EventArgs e)
+        {
+            Category category = (Category)cbCategories.SelectedItem;
+            lbWordList.ItemsSource = Word.FindAllByCategoryId(category.id);
         }
     }
 }

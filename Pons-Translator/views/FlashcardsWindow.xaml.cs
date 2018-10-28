@@ -3,9 +3,6 @@ using System.Windows;
 
 namespace Pons_Translator.views
 {
-    /// <summary>
-    /// Interaktionslogik für FlashcardsWindow.xaml
-    /// </summary>
     public partial class FlashcardsWindow : Window
     {
         public FlashcardsWindow()
