@@ -18,6 +18,8 @@ using System.Windows.Shapes;
 
 using Pons_Translator.models;
 using Pons_Translator.views;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Pons_Translator
 {
@@ -36,7 +38,6 @@ namespace Pons_Translator
             cbLanguage.Items.Add("it");
             cbLanguage.Items.Add("es");
             cbLanguage.SelectedValue = "en";
-
         }
 
         public void toWords_Click(object sender, RoutedEventArgs e)
@@ -61,9 +62,7 @@ namespace Pons_Translator
         {
             string word = tbWord.Text;
             string language = cbLanguage.Text;
-            string translation = PonsApi.Translate(word, language);
-            MessageBox.Show(string.Format("Looking for the word {0} in {1}", word, language));
-            //  parse json and populate a Word object whith it;
+            List<string> translations = PonsApi.Translate(word, language);
         }
     }
 }

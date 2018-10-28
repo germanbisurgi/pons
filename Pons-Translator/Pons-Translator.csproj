@@ -83,6 +83,7 @@
     <Compile Include="views\FlashcardsWindow.xaml.cs">
       <DependentUpon>FlashcardsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="views\JavaScriptSerializer.cs" />
     <Compile Include="views\WordWindow.xaml.cs">
       <DependentUpon>WordWindow.xaml</DependentUpon>
     </Compile>
