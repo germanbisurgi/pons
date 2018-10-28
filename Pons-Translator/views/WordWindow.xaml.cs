@@ -5,9 +5,6 @@ using System.Windows.Controls;
 
 namespace Pons_Translator.views
 {
-    /// <summary>
-    /// Interaktionslogik für WordWindow.xaml
-    /// </summary>
     public partial class WordWindow : Window
     {
         public WordWindow()
@@ -21,7 +18,7 @@ namespace Pons_Translator.views
             lbWordList.ItemsSource = Word.FindAll();
             if (resetInputs)
             {
-                tbWordID.Text = "";
+                tbWordId.Text = "";
                 cbWordCategory.ItemsSource = Category.FindAll(); ;
                 tbWordCount.Text = "";
                 tbWordName.Text = "";
@@ -34,11 +31,10 @@ namespace Pons_Translator.views
         {
             if (lbWordList.SelectedItem != null)
             {
-                string wordName = lbWordList.SelectedItem.ToString();
-                Word word = Word.FindOne(wordName);
+                Word word = (Word)lbWordList.SelectedItem;
                 Category category = Category.FindById(word.categoryId);
-                tbWordID.Text = word.id.ToString();
-                cbWordCategory.ItemsSource = Category.FindAll(); // todo: select correct category
+                tbWordId.Text = word.id.ToString();
+                cbWordCategory.ItemsSource = Category.FindAll();
                 foreach (var item in cbWordCategory.Items)
                 if (item.ToString() == category.name)
                 {
@@ -54,7 +50,7 @@ namespace Pons_Translator.views
 
         private void btnCreateWord_Click(object sender, RoutedEventArgs e)
         {
-            Category category = Category.FindOne(cbWordCategory.Text);
+            Category category = (Category)cbWordCategory.SelectedItem;
             int categoryId = category.id;
             int count;
             if (tbWordCount.Text != "")
@@ -74,20 +70,21 @@ namespace Pons_Translator.views
 
         private void btnDeleteWord_Click(object sender, RoutedEventArgs e)
         {
-            Category.Delete(tbWordID.Text);
+            Category.Delete(tbWordId.Text);
             Refresh(true);
         }
 
         private void btnDeleteWord_Click_1(object sender, RoutedEventArgs e)
         {
-            Word.Delete(tbWordID.Text);
+            int wordId = int.Parse(tbWordId.Text);
+            Word.Delete(wordId);
             Refresh(true);
         }
 
         private void btnUpdateWord_Click(object sender, RoutedEventArgs e)
         {
-            Category category = Category.FindOne(cbWordCategory.Text);
-            int id = int.Parse(tbWordID.Text);
+            Category category = (Category)cbWordCategory.SelectedItem;
+            int wordId = int.Parse(tbWordId.Text);
             int categoryId = category.id;
             int count;
             if (tbWordCount.Text != "")
@@ -101,7 +98,7 @@ namespace Pons_Translator.views
             string name = tbWordName.Text;
             string language = tbWordLanguage.Text;
             string translation = tbWordTranslation.Text;
-            Word.Update(id, categoryId, count, name, language, translation);
+            Word.Update(wordId, categoryId, count, name, language, translation);
             Refresh(false);
         }
     }

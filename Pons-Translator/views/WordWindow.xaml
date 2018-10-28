@@ -7,8 +7,8 @@
         <Button Name="btnDeleteWord" Content="Delete" HorizontalAlignment="Left" Margin="281,196,0,0" VerticalAlignment="Top" Width="201" Click="btnDeleteWord_Click_1"/>
         <Button Name="btnUpdateWord" Content="Update" HorizontalAlignment="Left" Margin="281,221,0,0" VerticalAlignment="Top" Width="201" Click="btnUpdateWord_Click"/>
         <Button Name="btnCreateWord" Content="Create" HorizontalAlignment="Left" Margin="281,246,0,0" VerticalAlignment="Top" Width="201" Click="btnCreateWord_Click"/>
-        <Label Name="lblWordID" Content="ID" HorizontalAlignment="Left" Margin="203,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.727,-0.5" Height="23" Width="42"/>
-        <TextBox Name="tbWordID" HorizontalAlignment="Left" Height="23" Margin="281,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.467,2.13" IsEnabled="False"/>
+        <Label Name="lblWordId" Content="ID" HorizontalAlignment="Left" Margin="203,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.727,-0.5" Height="23" Width="42"/>
+        <TextBox Name="tbWordId" HorizontalAlignment="Left" Height="23" Margin="281,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" RenderTransformOrigin="0.467,2.13" IsEnabled="False"/>
         <Label Name="lbWordName" Content="Name" HorizontalAlignment="Left" Margin="203,44,0,0" VerticalAlignment="Top"/>
         <TextBox Name="tbWordName" HorizontalAlignment="Left" Height="23" Margin="281,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201"/>
         <Label Name="lbWordCategory" Content="Category" HorizontalAlignment="Left" Margin="203,75,0,0" VerticalAlignment="Top"/>

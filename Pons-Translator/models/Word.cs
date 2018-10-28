@@ -111,7 +111,7 @@ namespace Pons_Translator.models
         }
 
         // Deletes a word row by ID.
-        public static void Delete(string id)
+        public static void Delete(int id)
         {
             string sql = string.Format(@"DELETE FROM word WHERE id = {0}", id);
             DBConnection.db.Adapter.ExecuteSQL(sql);

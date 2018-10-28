@@ -5,9 +5,6 @@ using System.Windows.Controls;
 
 namespace Pons_Translator
 {
-    /// <summary>
-    /// Interaktionslogik für CategoriesWindow.xaml
-    /// </summary>
     public partial class FashcardsWindow : Window
     {
         public FashcardsWindow()
@@ -30,7 +27,7 @@ namespace Pons_Translator
         {
             if (lbCategoryList.SelectedItem != null)
             {
-                Category category = Category.FindOne(lbCategoryList.SelectedItem.ToString());
+                Category category = (Category)lbCategoryList.SelectedItem;
                 tbCategoryID.Text = category.id.ToString();
                 tbCategoryName.Text = category.name.ToString();
             }
